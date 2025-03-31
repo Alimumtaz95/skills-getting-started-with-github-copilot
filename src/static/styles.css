@@ -208,9 +208,10 @@ footer.dark-mode {
 
 /* Dark mode toggle button */
 .dark-mode-toggle {
-  position: absolute;
+  position: fixed; /* Changed to fixed for consistent placement */
   top: 20px;
   right: 20px;
+  z-index: 1000; /* Added z-index to ensure visibility above other elements */
   background-color: #1a237e;
   color: white;
   border: none;
