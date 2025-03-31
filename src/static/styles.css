@@ -12,7 +12,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #ffffff; /* Lighter background for better visibility */
+  background-color: #fff9c4; /* Changed background color to light yellow */
 }
 
 header {
@@ -130,7 +130,7 @@ button:hover {
   background-color: #5c6bc0; /* Improved hover effect for better feedback */
 }
 
-.message {
+message {
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;
@@ -208,10 +208,10 @@ footer.dark-mode {
 
 /* Dark mode toggle button */
 .dark-mode-toggle {
-  position: fixed; /* Changed to fixed for consistent placement */
+  position: fixed; /* Ensures the button stays at the top-right corner */
   top: 20px;
   right: 20px;
-  z-index: 1000; /* Added z-index to ensure visibility above other elements */
+  z-index: 1000; /* Keeps the button above other elements */
   background-color: #1a237e;
   color: white;
   border: none;
@@ -223,7 +223,7 @@ footer.dark-mode {
 }
 
 .dark-mode-toggle:hover {
-  background-color: #3949ab;
+  background-color: #3949ab; /* Improved hover effect */
 }
 
 /* Additional enhancements */
