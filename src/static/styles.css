@@ -2,36 +2,37 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif; /* Enhanced font for better readability */
 }
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #222; /* Improved contrast for text */
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: #ffffff; /* Lighter background for better visibility */
 }
 
 header {
   text-align: center;
   padding: 20px 0;
   margin-bottom: 30px;
-  background-color: #1a237e;
+  background-color: #283593; /* Slightly lighter shade for better contrast */
   color: white;
   border-radius: 5px;
 }
 
 header h1 {
   margin-bottom: 10px;
+  font-size: 2.5rem; /* Increased font size for better visibility */
 }
 
 main {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px; /* Reduced gap for better alignment */
   justify-content: center;
 }
 
@@ -48,6 +49,7 @@ section {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 500px;
+  font-size: 1rem; /* Standardized font size for readability */
 }
 
 section h3 {
@@ -68,6 +70,7 @@ section h3 {
 .activity-card h4 {
   margin-bottom: 10px;
   color: #0066cc;
+  font-size: 1.2rem; /* Increased font size for better visibility */
 }
 
 .activity-card p {
@@ -116,15 +119,15 @@ button {
   background-color: #1a237e;
   color: white;
   border: none;
-  padding: 10px 15px;
-  font-size: 16px;
+  padding: 12px 20px; /* Enhanced padding for better usability */
+  font-size: 1rem; /* Standardized button font size */
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
 button:hover {
-  background-color: #3949ab;
+  background-color: #5c6bc0; /* Improved hover effect for better feedback */
 }
 
 .message {
@@ -160,22 +163,24 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+  font-size: 0.9rem; /* Slightly smaller font for footer */
 }
 
 /* Dark mode styles */
 body.dark-mode {
   background-color: #121212;
-  color: #e0e0e0;
+  color: #cfcfcf; /* Improved text contrast in dark mode */
 }
 
 header.dark-mode {
-  background-color: #333;
+  background-color: #424242; /* Enhanced header contrast in dark mode */
   color: #e0e0e0;
 }
 
 section.dark-mode {
   background-color: #1e1e1e;
   box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+  color: #e0e0e0; /* Improved text visibility in dark mode */
 }
 
 .activity-card.dark-mode {
@@ -188,16 +193,17 @@ section.dark-mode {
 }
 
 button.dark-mode {
-  background-color: #444;
+  background-color: #555; /* Enhanced button visibility in dark mode */
   color: #e0e0e0;
 }
 
 button.dark-mode:hover {
-  background-color: #555;
+  background-color: #666; /* Improved hover effect in dark mode */
 }
 
 footer.dark-mode {
   color: #aaa;
+  font-size: 0.9rem; /* Consistent footer font size */
 }
 
 /* Dark mode toggle button */
@@ -208,8 +214,8 @@ footer.dark-mode {
   background-color: #1a237e;
   color: white;
   border: none;
-  padding: 10px 15px;
-  font-size: 14px;
+  padding: 12px 20px; /* Enhanced padding for usability */
+  font-size: 1rem; /* Standardized font size */
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.2s;
@@ -217,4 +223,14 @@ footer.dark-mode {
 
 .dark-mode-toggle:hover {
   background-color: #3949ab;
+}
+
+/* Additional enhancements */
+a {
+  color: #1a73e8; /* Added link color for better visibility */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Added hover effect for links */
 }
