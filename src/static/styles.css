@@ -92,6 +92,21 @@ section h3 {
   color: #2980b9; /* Blue for emphasis */
 }
 
+/* New styles for participant info */
+.participant-info {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f0f8ff; /* Light blue background for emphasis */
+  border-left: 4px solid #2980b9; /* Blue accent */
+  font-size: 0.9rem;
+  color: #333;
+  border-radius: 4px;
+}
+
+.participant-info strong {
+  color: #2980b9; /* Highlighted text */
+}
+
 .form-group {
   margin-bottom: 15px;
 }
